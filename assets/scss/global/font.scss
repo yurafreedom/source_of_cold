@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Gerbera';
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  src: local('Gerbera Regular'), local('Gerbera-Regular'),
+        url('../fonts/Gerbera-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/Gerbera-Regular.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Gerbera';
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+  src: local('SFProDisplay Medium'), local('Gerbera-Medium'),
+        url('../fonts/Gerbera-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/Gerbera-Medium.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Gerbera';
+  font-style: normal;
+  font-weight: 900;
+  font-display: fallback;
+  src: local('Gerbera Semibold'), local('Gerbera-Semibold'),
+        url('../fonts/Gerbera-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/Gerbera-Semibold.woff') format('woff'), /* Modern Browsers */
+}
+
+

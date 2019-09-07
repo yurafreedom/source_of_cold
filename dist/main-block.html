@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!-- ADAPTIVITY -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000000">
+	
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000000">
+	
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-touch-fullscreen" content="yes">
+	
+	<!-- CONFIG -->
+	<meta name="format-detection" content="telephone=no">
+	<title>Главная страница - Источник холода</title>
+	
+	<!-- FONTS -->
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body >
+<header id="header" class="page-header">
+	<div class="page-header__row">
+		<a href="index.html" class="page-header__logo">
+			<img src="img/logo.png" alt="">
+		</a>
+		<div class="page-header__contacts-block">
+			<span class="page-header__address">г. Краснодар, ул. Садовая, 218</span>
+			<a href="#" class="page-header__phone-link">8-800-000-00-00</a>
+		</div>
+	</div>
+</header>
+
+
+
+
+
+
+
+<div class="main-page-wrap">
+	<div class="main-page-blocks">
+		<section class="main-block">
+			<div class="main-block__wrapper">
+				<div class="slider-wrapper">
+					<div class="main-button-prev"></div>
+					<div id="main_slider" class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="main-block__slide-wrap">
+									<div class="container">
+										<div class="row">
+											<div class="col-12">
+												<div class="main-block__title">Проектирование и строительство холодильных камер и складов</div>
+												<p class="main-block__description">Поставка, монтаж, ремонт и сервис промышленного  холодильного оборудования</p>
+												<a href="#" class="btn btn--more">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="main-block__slide-wrap">
+									<div class="container">
+										<div class="row">
+											<div class="col-12">
+												<div class="main-block__title">Проектирование и строительство холодильных камер и складов</div>
+												<p class="main-block__description">Поставка, монтаж, ремонт и сервис промышленного  холодильного оборудования</p>
+												<a href="#" class="btn btn--more">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="main-block__slide-wrap">
+									<div class="container">
+										<div class="row">
+											<div class="col-12">
+												<div class="main-block__title">Проектирование и строительство холодильных камер и складов</div>
+												<p class="main-block__description">Поставка, монтаж, ремонт и сервис промышленного  холодильного оборудования</p>
+												<a href="#" class="btn btn--more">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-button-next"></div>
+				</div>
+				<div class="slider-pag-block">
+					<div class="objects-block__pagination js--objects-pag"></div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="page-footer">
+
+</footer>
+</div>
+
+
+<div class="popup-block" id="popup_order">
+	<div class="popup-block__overlay">
+		<div class="popup-block__popup">
+			<div class="inner-content">
+				<a href="javascript:;" data-toggle="dismiss" class="popup-block__close"></a>
+				<div class="popup-block__wrapper">
+					<div class="popup-block__content-block">
+						<div class="popup-block__content-icon">
+							<svg width="80" height="80">
+								<use xlink:href="#sketch"></use>
+							</svg>
+						</div>
+						<div class="popup-block__content-title">Заказать документ</div>
+						<p class="popup-block__content-text">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+					</div>
+					<form action="" class="popup-block__form">
+						<div class="about-block__input-wrapper">
+							<input type="text" id="popup_name" name="popup_name" class="text-input about-block__input not-empty" required>
+							<label for="popup_name" class="about-block__label">Ваше имя</label>
+						</div>
+						<div class="about-block__input-wrapper">
+							<input type="text" id="popup_email" name="popup_email" class="text-input about-block__input not-empty" required>
+							<label for="popup_email" class="about-block__label">E-mail</label>
+						</div>
+						<span class="popup-block__personal-info">Нажав на кнопку, я даю согласие на обработку персональных данных</span>
+						<button class="btn btn--send" type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scroll-lock.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/main.min.js"></script>
+<!-- <script src="https://api-maps.yandex.ru/2.1/?load=package.full&amp;lang=ru-RU"></script>
+<script>
+	ymaps.ready(init);
+
+	var map;
+
+	function init() {
+
+		map = new ymaps.Map ("avangard_map", {
+		center: [45.03100507458392,38.97291449999995],
+		zoom: 16
+		});
+
+		map.behaviors.disable('scrollZoom'); 
+
+		var saleOffice = new ymaps.Placemark([45.025709764975765,38.957464976074185], {}, {
+		iconLayout: 'default#image',
+		// Своё изображение иконки метки.
+		iconImageHref: 'img/map-point.svg',
+		// Размеры метки.
+		iconImageSize: [70, 100],
+		// Смещение левого верхнего угла иконки относительно
+		// её "ножки" (точки привязки).
+		iconImageOffset: [-16, -18]
+		});
+
+		map.geoObjects.add(saleOffice);
+
+	}
+</script> -->
+</body>
+</html>

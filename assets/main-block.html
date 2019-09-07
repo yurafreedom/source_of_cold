@@ -1,0 +1,101 @@
+@@include('template/head.html', {
+	"pagetitle": "Главная страница",
+	"bodyclass": ""
+})
+@@include('template/page-header.html')
+
+<div class="main-page-wrap">
+	<div class="main-page-blocks">
+		<section class="main-block">
+			<div class="main-block__wrapper">
+				<div class="slider-wrapper">
+					<div class="main-button-prev"></div>
+					<div id="main_slider" class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="main-block__slide-wrap">
+									<div class="container">
+										<div class="row">
+											<div class="col-12">
+												<div class="main-block__title">Проектирование и строительство холодильных камер и складов</div>
+												<p class="main-block__description">Поставка, монтаж, ремонт и сервис промышленного  холодильного оборудования</p>
+												<a href="#" class="btn btn--more">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="main-block__slide-wrap">
+									<div class="container">
+										<div class="row">
+											<div class="col-12">
+												<div class="main-block__title">Проектирование и строительство холодильных камер и складов</div>
+												<p class="main-block__description">Поставка, монтаж, ремонт и сервис промышленного  холодильного оборудования</p>
+												<a href="#" class="btn btn--more">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="main-block__slide-wrap">
+									<div class="container">
+										<div class="row">
+											<div class="col-12">
+												<div class="main-block__title">Проектирование и строительство холодильных камер и складов</div>
+												<p class="main-block__description">Поставка, монтаж, ремонт и сервис промышленного  холодильного оборудования</p>
+												<a href="#" class="btn btn--more">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-button-next"></div>
+				</div>
+				<div class="slider-pag-block">
+					<div class="objects-block__pagination js--objects-pag"></div>
+				</div>
+			</div>
+		</section>
+	</div>
+	@@include('template/page-footer.html')
+</div>
+
+@@include('template/sprite.html')
+@@include('template/popups.html')
+@@include('template/scripts.html')
+<!-- <script src="https://api-maps.yandex.ru/2.1/?load=package.full&amp;lang=ru-RU"></script>
+<script>
+	ymaps.ready(init);
+
+	var map;
+
+	function init() {
+
+		map = new ymaps.Map ("avangard_map", {
+		center: [45.03100507458392,38.97291449999995],
+		zoom: 16
+		});
+
+		map.behaviors.disable('scrollZoom'); 
+
+		var saleOffice = new ymaps.Placemark([45.025709764975765,38.957464976074185], {}, {
+		iconLayout: 'default#image',
+		// Своё изображение иконки метки.
+		iconImageHref: 'img/map-point.svg',
+		// Размеры метки.
+		iconImageSize: [70, 100],
+		// Смещение левого верхнего угла иконки относительно
+		// её "ножки" (точки привязки).
+		iconImageOffset: [-16, -18]
+		});
+
+		map.geoObjects.add(saleOffice);
+
+	}
+</script> -->
+</body>
+</html>

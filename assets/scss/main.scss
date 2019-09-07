@@ -1,0 +1,44 @@
+
+// GLOBAL STYLES
+// @import "normalize";
+@import "global/variables";
+@import "global/font";
+@import "global/mixins";
+
+// PLUGINS STYLE
+@import "plugins/bootstrap.min";
+@import "plugins/swiper.min";
+
+// BLOCKS STYLE
+@import "blocks/button";
+@import "blocks/page-header";
+@import "blocks/main-block";
+@import "blocks/plugins";
+@import "blocks/page-footer";
+@import "blocks/popup-block";
+@import "blocks/media";
+
+body,html {
+	-webkit-overflow-scrolling : touch !important;
+}
+
+*, ::after, ::before { 
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-family: 'Gerbera', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.page-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}

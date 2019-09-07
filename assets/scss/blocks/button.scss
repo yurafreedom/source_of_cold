@@ -1,0 +1,54 @@
+.btn {
+	position: relative;
+	outline: none !important;
+	border: none;
+	cursor: pointer;
+	text-decoration: none !important;
+	background: none;
+	-webkit-appearance: none;
+	
+	display: inline-block;
+	width: 100%;
+	color: #F2F2F2;
+	background-color: #4CB1F7;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	font-family: 'Gerbera', sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0.1em;
+	height: auto;
+	font-weight: 500;
+	
+	-webkit-transform: translateZ(0px);
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	padding-top: 20px;
+	padding-bottom: 19px;
+	
+	border: none;
+	
+	transition: all 0.3s ease-in-out;
+	
+	> * {
+		line-height: 1;
+	}
+	
+	&:hover {
+
+	}
+	
+	&:active,
+	&:focus,
+	&:hover {
+		text-decoration: none !important;
+		outline: none !important;
+	}
+}
+
+.btn--more {
+	width: 190px;
+}
