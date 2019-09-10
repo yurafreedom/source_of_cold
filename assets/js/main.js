@@ -229,6 +229,8 @@ $(document).ready(function () {
 
 $('.projects-block__photo-gallery-link').on('click', function() {
     var thisArray = $(this).attr('data-images-array');
+    thisArray = thisArray.replace(/'/g, '"');
+    thisArray = JSON.parse(thisArray);
     $.fancybox.open({
      src  : thisArray
     });
