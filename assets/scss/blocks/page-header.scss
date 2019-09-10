@@ -10,11 +10,48 @@
 }
 
 .page-header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	padding-top: 30px;
 	&__row {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+	}
+	&__logo {
+		display: inline-block;
+		img {
+			display: block;
+			width: 130px;
+			min-width: 130px;
+			height: 112px;
+			object-fit: contain;
+		}
+	}
+	&__contacts-block {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 18px;
+	}
+	&__address {
+		display: block;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 1.33;
+		color: #fff;
+		margin-right: 50px;
+	}
+	&__phone-link {
+		display: block;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 1.33;
+		color: #fff;		
 	}
 }
 

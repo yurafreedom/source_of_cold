@@ -7,7 +7,7 @@
 	background: none;
 	-webkit-appearance: none;
 	
-	display: inline-block;
+	display: block;
 	width: 100%;
 	color: #F2F2F2;
 	background-color: #4CB1F7;
@@ -26,9 +26,9 @@
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 
-	padding-top: 20px;
-	padding-bottom: 19px;
-	
+	padding-top: 21px;
+	padding-bottom: 20px;
+	border-radius: 0;
 	border: none;
 	
 	transition: all 0.3s ease-in-out;
@@ -51,4 +51,11 @@
 
 .btn--more {
 	width: 190px;
+}
+
+.btn--play {
+	background: none;
+	padding: 0;
+	display: inline-block;
+	width: auto;
 }

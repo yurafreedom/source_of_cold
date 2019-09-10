@@ -1,0 +1,87 @@
+.advantages-block {
+	position: relative;
+	background-image: url('../img/advantages-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 195px;
+	padding-bottom: 190px;
+	&__number {
+		position: absolute;
+		top: 56px;
+		left: 50%;
+		margin-left: -38px;
+		font-size: 72px;
+		line-height: 1.33;
+		font-weight: 300;
+		color: rgba(255, 199, 0, 0.3);
+		&::before {
+			content: '';
+			position: absolute;
+			top: -134px;
+			left: 36px;
+			width: 2px;
+			height: 134px;
+			background-color: #FFC729;
+		}
+	}
+	&__heading {
+		display: block;
+		margin-bottom: 43px;
+		margin-left: 70px;
+	}
+	&__title {
+		display: block;
+		margin-bottom: 4px;
+		font-size: 36px;
+		font-weight: 500;
+		line-height: 1.33;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: #4CB1F7;
+	}
+	&__description {
+		display: block;
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 1.33;
+		color: rgba(255,255,255,0.5);
+	}
+	&__card {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	&__card-photo {
+		display: inline-block;
+		margin-bottom: 27px;
+		img {
+			display: block;
+			height: 181px;
+			object-fit: contain;
+		}
+	}
+	&__card-inner {
+		display: flex;
+		flex-direction: column;
+		height: calc(100% - 190px);
+	}
+	&__card-title {
+		display: block;
+		font-size: 18px;
+		line-height: 1.33;
+		font-weight: 500;
+		color: #4CB1F7;
+		margin-bottom: 18px;
+	}
+	&__card-text {
+		display: block;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 1.3125;
+		color: #fff;
+	}
+	&__card-text p {
+		margin: 0;
+	}
+}

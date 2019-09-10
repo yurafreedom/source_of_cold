@@ -8,11 +8,22 @@
 // PLUGINS STYLE
 @import "plugins/bootstrap.min";
 @import "plugins/swiper.min";
+@import "plugins/fancybox.min";
 
 // BLOCKS STYLE
 @import "blocks/button";
 @import "blocks/page-header";
 @import "blocks/main-block";
+@import "blocks/conditions-block";
+@import "blocks/complex-block";
+@import "blocks/advantages-block";
+@import "blocks/partners-block";
+@import "blocks/payment-block";
+@import "blocks/distributor-block";
+@import "blocks/video-block";
+@import "blocks/projects-block";
+@import "blocks/contacts-block";
+@import "blocks/map-block";
 @import "blocks/plugins";
 @import "blocks/page-footer";
 @import "blocks/popup-block";
@@ -33,7 +44,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 	font-family: 'Gerbera', sans-serif;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 1;
 }
 

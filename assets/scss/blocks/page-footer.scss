@@ -1,5 +1,61 @@
 .page-footer {
-
+	background-color: #4F4F4F;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	&__wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__logo {
+		display: inline-block;
+		margin-top: 2px;
+		img {
+			display: block;
+			width: 100px;
+			height: 86px;
+			object-fit: contain;
+		}
+	}
+	&__privacy-block {
+		display: block;
+		margin-top: 34px;
+	}
+	&__copyright {
+		display: block;
+		margin-bottom: 9px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.3125;
+		color: #fff;
+	}
+	&__politic-link {
+		display: block;
+		text-align: center;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.3125;
+		text-decoration: underline;
+		color: #fff;
+	}
+	&__author-link {
+		display: block;
+		margin-top: 25px;
+		span {
+			display: block;
+			text-align: right;
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 1.3125;
+			color: #fff;
+		}
+		img {
+			display: block;
+			width: 100px;
+			height: 23px;
+		}
+	}
 }
 
 

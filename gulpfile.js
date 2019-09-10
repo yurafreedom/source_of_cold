@@ -108,13 +108,13 @@ gulp.task('watch:css', function() {
 
 gulp.task('jsplugins:build', function () {
     return gulp.src(path.src.jsplugins)
-		.pipe(concat('scripts.js'))
-        .pipe(rename('plugins.min.js'))
-		.pipe(uglify({
-            output: {
-                'ascii_only': true
-            }
-        }))
+		// .pipe(concat('scripts.js'))
+  //       .pipe(rename('plugins.min.js'))
+		// .pipe(uglify({
+  //           output: {
+  //               'ascii_only': true
+  //           }
+  //       }))
         .pipe(gulp.dest(path.build.js));
 });
 
