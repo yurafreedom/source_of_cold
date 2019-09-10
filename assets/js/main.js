@@ -227,13 +227,132 @@ $(document).ready(function () {
  }
 });
 
-$('.projects-block__photo-gallery-link').on('click', function() {
-    var thisArray = $(this).attr('data-images-array');
-    thisArray = thisArray.replace(/'/g, '"');
-    thisArray = JSON.parse(thisArray);
-    $.fancybox.open({
-     src  : thisArray
-    });
+// $('.projects-block__photo-gallery-link').on('click', function() {
+//     var thisArray = $(this).attr('data-images-array');
+//     thisArray = thisArray.replace(/'/g, '"');
+//     thisArray = JSON.parse(thisArray);
+//     // $.fancybox.open(thisArray);
+//     console.log(thisArray)
+// });
+
+$(".projects-block__photo-gallery-link-1").on('click', function() {
+
+  $.fancybox.open([
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'First caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    },
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'Second caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    }
+  ], {
+    loop : true,
+    hash : "test"
+  });
+
+});
+
+$(".projects-block__photo-gallery-link-2").on('click', function() {
+
+  $.fancybox.open([
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'First caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    },
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'Second caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    }
+  ], {
+    loop : true,
+    hash : "test"
+  });
+
+});
+
+$(".projects-block__photo-gallery-link-3").on('click', function() {
+
+  $.fancybox.open([
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'First caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    },
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'Second caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    }
+  ], {
+    loop : true,
+    hash : "test"
+  });
+
+});
+
+$(".projects-block__photo-gallery-link-4").on('click', function() {
+
+  $.fancybox.open([
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'First caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    },
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'Second caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    }
+  ], {
+    loop : true,
+    hash : "test"
+  });
+
+});
+
+$(".projects-block__photo-gallery-link-5").on('click', function() {
+
+  $.fancybox.open([
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'First caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    },
+    {
+      src  : 'img/project-photo-1.png',
+      opts : {
+        caption : 'Second caption',
+        thumb   : 'img/project-photo-1.png'
+      }
+    }
+  ], {
+    loop : true,
+    hash : "test"
+  });
+
 });
 
 $.extend($.validator.messages, {

@@ -8968,46 +8968,6 @@ body.compensate-for-scrollbar {
     line-height: 1.2;
     color: #828282; }
 
-@media (min-width: 1200px) and (max-width: 1439px) {
-  .main-block__title {
-    margin: 0 auto;
-    margin-bottom: 15px;
-    font-size: 32px;
-    max-width: 700px;
-    width: 100%; }
-  .main-block__description {
-    font-size: 18px; }
-  .main-block__pagination {
-    left: 175px; }
-  .conditions-block__card-title {
-    font-size: 18px; }
-  .main-button-prev, .main-button-next {
-    width: 40px;
-    height: 40px;
-    background-size: 9px 16px; }
-  .partners-button-prev, .partners-button-next {
-    top: 20px;
-    width: 60px;
-    height: 60px;
-    background-size: 9px 16px; }
-  .partners-button-prev {
-    left: 0; }
-  .partners-button-next {
-    right: 0; }
-  .video-button-prev, .video-button-next {
-    top: 280px;
-    width: 60px;
-    height: 60px;
-    background-size: 9px 16px; }
-  .video-button-prev {
-    left: 20px; }
-  .video-button-next {
-    right: 20px; }
-  .project-button-prev {
-    left: -55px; }
-  .project-button-next {
-    right: 55px; } }
-
 body, html {
   -webkit-overflow-scrolling: touch !important; }
 
