@@ -118,6 +118,10 @@
 		align-items: center;
 		border-radius: 50%;
 		background-color: #fff;
+		img {
+			width: 24px;
+			height: 24px;
+		}
 		&:hover, &:active, &:focus {
 			text-decoration: none;
 		}

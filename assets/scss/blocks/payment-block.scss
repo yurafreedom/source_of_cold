@@ -95,7 +95,13 @@
 		color: #4B575C;
 	}
 	&__photo-block {
+		display: block;
 		margin-top: -30px;
 		margin-right: -10px;
+		img {
+			display: block;
+			width: 516px;
+			height: 402px;
+		}
 	}
 }
