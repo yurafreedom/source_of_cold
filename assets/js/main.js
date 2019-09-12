@@ -111,7 +111,8 @@ $(document).ready(function () {
                 slidesPerView: 1,
             },
             1199: {
-                slidesPerView: 1,
+                slidesPerView: 3,
+                spaceBetween: 0,
             },
         }
       });
@@ -211,12 +212,15 @@ $(document).ready(function () {
         breakpoints: {
             320: {
                 slidesPerView: 1,
+                spaceBetween: 20,
             },
             480: {
                 slidesPerView: 1,
+                spaceBetween: 20,
             },
             1199: {
                 slidesPerView: 1,
+                spaceBetween: 70,
             },
         }
       });
@@ -226,14 +230,6 @@ $(document).ready(function () {
         })
  }
 });
-
-// $('.projects-block__photo-gallery-link').on('click', function() {
-//     var thisArray = $(this).attr('data-images-array');
-//     thisArray = thisArray.replace(/'/g, '"');
-//     thisArray = JSON.parse(thisArray);
-//     // $.fancybox.open(thisArray);
-//     console.log(thisArray)
-// });
 
 $(".projects-block__photo-gallery-link-1").on('click', function() {
 
@@ -355,18 +351,24 @@ $(".projects-block__photo-gallery-link-5").on('click', function() {
 
 });
 
+$('[data-toggle="tab"]').click(function(e) {
+ e.preventDefault();
+ 
+ var thisTarget = $(this).attr('data-target');
+ 
+ if ($(this).parent().is('li')) {
+  $(this).parent().addClass('active').siblings().removeClass('active');
+ } else {
+  $(this).addClass('active').siblings().removeClass('active');
+ }
+ 
+ $(thisTarget).addClass('active').siblings().removeClass('active');
+});
+
 $.extend($.validator.messages, {
     required: "Ошибка. Поле обязательно для заполнения",
     email: "Ошибка. Пожалуйста, введите корректный адрес электронной почты",
 });
-
-// $('.btn--play').on('click', function() {
-//  var thisVideoSrc = $(this).attr('src');
- 
-//  $(this).parent().append('<iframe' + thisVideoSrc '></iframe>');
-//  $(this).parent().find('iframe').get(0).play();
-//  $(this).remove();
-// });
 
 $("form").each(function() {
     $(this).validate({

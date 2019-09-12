@@ -15,6 +15,9 @@
 	background-position: center center;
 	outline: none;
 	z-index: 100;
+}
+
+.main-button-prev, .main-button-next {
 	box-shadow: 2px 5px 6px rgba(36, 52, 75, 0.1);
 }
 
@@ -24,11 +27,15 @@
 
 .main-button-next {
 	right: 100px;
-	transform: rotate(180deg);
+	background-image: url('../img/arrow-right.svg');
+	background-repeat: no-repeat;
+	background-size: 17px 32px;
+	background-position: center center;
 }
 
 .partners-button-prev, .partners-button-next  {
 	top: 0;
+	box-shadow: 2px 5px 6px rgba(36, 52, 75, 0.1);
 }
 
 .partners-button-prev {
@@ -37,11 +44,15 @@
 
 .partners-button-next {
 	right: -130px;
-	transform: rotate(180deg);
+	background-image: url('../img/arrow-right.svg');
+	background-repeat: no-repeat;
+	background-size: 17px 32px;
+	background-position: center center;
 }
 
 .video-button-prev, .video-button-next {
 	top: 260px;
+	box-shadow: 2px 5px 6px rgba(36, 52, 75, 0.1);
 }
 
 .video-button-prev {
@@ -50,12 +61,16 @@
 
 .video-button-next {
 	right: -115px;
-	transform: rotate(180deg);
+	background-image: url('../img/arrow-right.svg');
+	background-repeat: no-repeat;
+	background-size: 17px 32px;
+	background-position: center center;
 }
 
 .project-button-prev, .project-button-next {
 	top: 186px;
 	bottom: auto;
+	box-shadow: 2px 5px 6px rgba(36, 52, 75, 0.1);
 }
 
 .project-button-prev {
@@ -64,7 +79,10 @@
 
 .project-button-next {
 	right: 28px;
-	transform: rotate(180deg);
+	background-image: url('../img/arrow-right.svg');
+	background-repeat: no-repeat;
+	background-size: 17px 32px;
+	background-position: center center;
 }
 
 .distributor-button-prev, .distributor-button-next {
@@ -82,6 +100,7 @@
 	box-shadow: 2px 5px 6px rgba(36, 52, 75, 0.3);
 	outline: none;
 	z-index: 100;	
+	box-shadow: 2px 5px 6px rgba(36, 52, 75, 0.3);
 }
 
 .distributor-button-prev {
@@ -89,8 +108,12 @@
 }
 
 .distributor-button-next {
-	left: 545px;
-	transform: rotate(180deg);
+	left: auto;
+	right: 45px;
+	background-image: url('../img/distributor-arrow-right.svg');
+	background-repeat: no-repeat;
+	background-size: 9px 16px;
+	background-position: center center;
 }
 
 #partners_slider .swiper-wrapper {
@@ -105,4 +128,9 @@
 
 #project_slider .swiper-slide {
 	width: 1030px !important;
+}
+
+#project_slider .swiper-slide:not(.swiper-slide-active) {
+  opacity: 0.5;
+  transition: all .3s ease-in-out;
 }

@@ -14,7 +14,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 1000;
+	z-index: 100;
 	padding-top: 30px;
 	&__row {
 		display: flex;
@@ -51,7 +51,8 @@
 		font-weight: 500;
 		font-size: 18px;
 		line-height: 1.33;
-		color: #fff;		
+		color: #fff;
+		transition: all 0.3s ease-in-out;
 	}
 }
 

@@ -1,30 +1,25 @@
-<div class="popup-block" id="popup_order">
+<div class="popup-block" id="popup_form">
 	<div class="popup-block__overlay">
 		<div class="popup-block__popup">
 			<div class="inner-content">
 				<a href="javascript:;" data-toggle="dismiss" class="popup-block__close"></a>
-				<div class="popup-block__wrapper">
-					<div class="popup-block__content-block">
-						<div class="popup-block__content-icon">
-							<svg width="80" height="80">
-								<use xlink:href="#sketch"></use>
-							</svg>
+				<div class="payment-block__form-wrapper">
+					<div class="payment-block__form-title">Заполните форму ниже и мы свяжемся с Вами в ближайшее время</div>
+					<div class="payment-block__wrapper">
+						<form action="" class="payment-block__form-block">
+							<div class="payment-block__input-wrapper">
+								<input type="text" class="text-input payment-block__input" name="payment_name" placeholder="Ваше имя" required>
+							</div>
+							<div class="payment-block__input-wrapper">
+								<input type="tel" class="text-input payment-block__input" name="payment_tel" placeholder="Телефон" required>
+							</div>
+							<span class="payment-block__form-personal">Нажимая на кнопку, Вы даете согласие на обработку персональных данных</span>
+							<button class="btn btn--payment" type="submit">Оставить заявку</button>
+						</form>
+						<div class="payment-block__photo-block">
+							<img src="img/payment-photo.png" alt="">
 						</div>
-						<div class="popup-block__content-title">Заказать документ</div>
-						<p class="popup-block__content-text">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
 					</div>
-					<form action="" class="popup-block__form">
-						<div class="about-block__input-wrapper">
-							<input type="text" id="popup_name" name="popup_name" class="text-input about-block__input not-empty" required>
-							<label for="popup_name" class="about-block__label">Ваше имя</label>
-						</div>
-						<div class="about-block__input-wrapper">
-							<input type="text" id="popup_email" name="popup_email" class="text-input about-block__input not-empty" required>
-							<label for="popup_email" class="about-block__label">E-mail</label>
-						</div>
-						<span class="popup-block__personal-info">Нажав на кнопку, я даю согласие на обработку персональных данных</span>
-						<button class="btn btn--send" type="submit">Отправить</button>
-					</form>
 				</div>
 			</div>
 		</div>

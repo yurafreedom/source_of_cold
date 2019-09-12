@@ -2,7 +2,6 @@
 	position: relative;
 	padding-top: 236px;
 	padding-bottom: 118px;
-	background-image: url('../img/video-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -10,7 +9,8 @@
 		position: absolute;
 		top: -8px;
 		left: 50%;
-		margin-left: -38px;
+		width: 74px;
+		margin-left: -37px;
 		font-size: 72px;
 		line-height: 1.33;
 		font-weight: 300;
@@ -20,7 +20,8 @@
 			content: '';
 			position: absolute;
 			top: -134px;
-			left: 36px;
+			left: 50%;
+			margin-left: -2px;
 			width: 2px;
 			height: 134px;
 			background-color: #FFC729;

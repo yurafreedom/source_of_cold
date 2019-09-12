@@ -59,3 +59,18 @@
 	display: inline-block;
 	width: auto;
 }
+
+.btn--complex {
+	outline: none !important;
+	padding: 0;
+	border: 0;
+	background: none;
+	text-align: left;
+	display: block;
+	font-family: 'Gerbera', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.35;
+	letter-spacing: 0;
+	color: #fff;
+}

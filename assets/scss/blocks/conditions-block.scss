@@ -1,6 +1,7 @@
 .conditions-block {
-	background-image: url('../img/conditions-bg.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	padding-top: 30px;
 	&__title {
 		display: block;
@@ -20,6 +21,9 @@
 	&__card {
 		width: 25%;
 		min-height: 270px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 	&__card-inner {
 		display: flex;

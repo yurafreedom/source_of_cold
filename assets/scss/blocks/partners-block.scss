@@ -2,12 +2,14 @@
 	position: relative;
 	padding-top: 194px;
 	padding-bottom: 195px;
+	margin-top: -2px;
 	background: linear-gradient(360deg, rgba(255, 255, 255, 0) 53.32%, #6D6D6D 112.84%), linear-gradient(179.14deg, rgba(255, 255, 255, 0) 60.41%, #656464 106.64%), #FFFFFF;
 	&__number {
 		position: absolute;
 		top: 58px;
 		left: 50%;
-		margin-left: -36px;
+		width: 74px;
+		margin-left: -37px;
 		font-size: 72px;
 		line-height: 1.33;
 		font-weight: 300;
@@ -16,7 +18,8 @@
 			content: '';
 			position: absolute;
 			top: -134px;
-			left: 36px;
+			left: 50%;
+			margin-left: -2px;
 			width: 2px;
 			height: 134px;
 			background-color: #FFC729;

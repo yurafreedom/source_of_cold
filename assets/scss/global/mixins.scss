@@ -3,8 +3,7 @@
 	outline: none !important;
 	-webkit-appearance: none;
 	background: none;
-	overflow: hidden;
-	padding-top: 19px;
+	padding-top: 17px;
 	padding-bottom: 18px;
 	line-height: 1.3125;
 	color: #000;
@@ -15,6 +14,7 @@
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 100%;
+	border-radius: 0;
 	border: 1px solid #E0E0E0;
 	background-color: #fff;
 
@@ -40,9 +40,9 @@
   } @else if $size == desktop {
     @media (min-width: 1200px) and (max-width: 1439px) { @content; }
   } @else if $size == xl {
-    @media (min-width: 1440px) { @content; }
+    @media (min-width: 1440px) and (max-width: 1599px) { @content; }
   } @else if $size == xxl {
-    @media (min-width: 1600px) { @content; }
+    @media (min-width: 1600px) and (max-width: 1919px) { @content; }
   } @else if $size == xxxl {
     @media (min-width: 1920px) { @content; }
   }

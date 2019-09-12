@@ -1,6 +1,5 @@
 .complex-block {
 	position: relative;
-	background-image: url('../img/complex-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -10,7 +9,8 @@
 		position: absolute;
 		top: 62px;
 		left: 50%;
-		margin-left: -36px;
+		width: 74px;
+		margin-left: -37px;
 		font-size: 72px;
 		line-height: 1.33;
 		font-weight: 300;
@@ -19,7 +19,8 @@
 			content: '';
 			position: absolute;
 			top: -134px;
-			left: 36px;
+			left: 50%;
+			margin-left: -2px;
 			width: 2px;
 			height: 134px;
 			background-color: #FFC729;
@@ -83,10 +84,6 @@
 		list-style-type: none;
 		margin: 0;
 		padding-left: 45px;
-		font-weight: 300;
-		font-size: 20px;
-		line-height: 1.35;
-		color: #fff;
 	}
 	&__list ul li:not(:last-child) {
 		margin-bottom: 50px;
@@ -105,5 +102,11 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
+	}
+	&__tab-content {
+		display: none;
+	}
+	&__tab-content.active {
+		display: block;
 	}
 }

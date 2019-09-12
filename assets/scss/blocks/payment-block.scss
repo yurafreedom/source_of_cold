@@ -1,12 +1,15 @@
 .payment-block {
-	background-image: url('../img/payment-bg.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	padding-top: 190px;
+	margin-top: -2px;
 	&__number {
 		position: absolute;
 		top: 62px;
 		left: 50%;
-		margin-left: -36px;
+		width: 74px;
+		margin-left: -37px;
 		font-size: 72px;
 		line-height: 1.33;
 		font-weight: 300;
@@ -15,7 +18,8 @@
 			content: '';
 			position: absolute;
 			top: -134px;
-			left: 36px;
+			left: 50%;
+			margin-left: -2px;
 			width: 2px;
 			height: 134px;
 			background-color: #FFC729;
@@ -79,7 +83,7 @@
 		color: #4B575C;
 	}
 	&__input-wrapper {
-		margin-bottom: 26px;
+		margin-bottom: 30px;
 	}
 	&__input {
 		&::placeholder {

@@ -1,6 +1,5 @@
 .distributor-block {
 	position: relative;
-	background-image: url('../img/distributor-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -11,7 +10,8 @@
 		position: absolute;
 		top: 415px;
 		left: 50%;
-		margin-left: -38px;
+		width: 74px;
+		margin-left: -37px;
 		font-size: 72px;
 		line-height: 1.33;
 		font-weight: 300;
@@ -21,7 +21,8 @@
 			content: '';
 			position: absolute;
 			top: -134px;
-			left: 36px;
+			left: 50%;
+			margin-left: -2px;
 			width: 2px;
 			height: 134px;
 			background-color: #FFC729;
@@ -92,6 +93,7 @@
 		justify-content: space-between;
 	}
 	&__slider-wrapper {
+		position: relative;
 		width: 600px;
 	}
 	&__content-block {

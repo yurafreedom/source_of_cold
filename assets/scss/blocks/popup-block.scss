@@ -15,114 +15,53 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
 		width: 100%;
 		min-height: 100%;
 		overflow: hidden;
-		background-color: rgba(31, 31, 31, 0.5);
+		background-color: rgba(0,0,0,0.8);
+	}
+	&__popup {
+		position: relative;
+		background-color: #fff;
+		.inner-content {
+			height: auto;
+		}
 	}
 	&__close {
 		position: absolute;
-		top: 30px;
-		right: 30px;
-		display: block;
-		width: 24px;
-		height: 24px;
-		z-index: 100;
-		&::after,
-		&::before {
+		top: 20px;
+		right: 20px;
+		width: 50px;
+		height: 50px;
+		z-index: 1000;
+		&:after,
+		&:before {
 			content: "";
 			display: block;
-			width: 24px;
+			width: 34px;
 			height: 3px;
-			
-			background-color: #BDBDBD;
+			background-color: #4B575C;
 			transition: all 0.15s ease-in;
-			
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			border-radius: 1px;
-			
 			margin-top: -1px;
 			margin-left: -17px;
 		}
-		&::after {
+		&:after {
 			transform: rotate(-45deg);
 		}
-		&::before {
+		&:before {
 			transform: rotate(45deg);
 		}
 		&:hover {
-			&::after,
-			&::before {
+			&:after,
+			&:before {
 				background-color: #000;
 			}
 		}
-	}
-	&__popup {
-		position: relative;
-		width: 1170px;
-		border-radius: 10px;
-		background-color: #fff;
-		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-		.inner-content {
-			height: auto;
-			padding-top: 100px;
-			padding-left: 70px;
-			padding-right: 70px;
-			padding-bottom: 109px;
-		}
-	}
-	&__wrapper {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		max-width: 1030px;
-	}
-	&__content-block {
-		display: block;
-		width: 100%;
-		max-width: 410px;
-	}
-	&__content-icon {
-		margin-bottom: 50px;
-	}
-	&__content-title {
-		display: block;
-		margin-bottom: 24px;
-		font-size: 36px;
-		line-height: 1.278;
-		font-weight: 700;
-		color: #333;
-	}
-	&__content-text {
-		display: block;
-		font-size: 18px;
-		line-height: 1.67;
-		color: #333;
-		margin: 0;
-	}
-	&__form {
-		width: 500px;
-	}
-	.about-block__input-wrapper {
-		max-width: 500px;
-		margin-bottom: 27px;
-	}
-	.about-block__input {
-		border: 1px solid #828282;
-		border-radius: 5px;
-		&:active, &:focus {
-			border-color: #FFFA7E;
-		}
-	}
-	&__personal-info {
-		display: block;
-		margin-bottom: 50px;
-		margin-top: -7px;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 1.2;
-		color: #828282;
 	}
 }
