@@ -198,6 +198,7 @@ $(document).ready(function () {
         spaceBetween: 70,
         loop: true,
         speed: 600,
+        centeredSlides: true,
         navigation: {
             nextEl: '.project-button-next',
             prevEl: '.project-button-prev',
