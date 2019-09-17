@@ -126,10 +126,6 @@
 	overflow: visible;
 }
 
-#project_slider .swiper-slide {
-	width: 1030px !important;
-}
-
 #project_slider .swiper-slide:not(.swiper-slide-active) {
   opacity: 0.5;
   transition: all .3s ease-in-out;
